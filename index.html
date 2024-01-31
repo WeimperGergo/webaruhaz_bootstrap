@@ -12,29 +12,34 @@
   </head>
 
   <body>
-    <main>
-      <header>
+    <main class="container-fluid row">
+      <header class="col-lg-12">
         <h1>Webáruház</h1>
       </header>
 
-      <nav>
+      <nav class="col-lg-12">
         <ul>
           <li><a href="index.html">Főoldal</a></li>
           <li><a href=".html"></a></li>
         </ul>
       </nav>
 
-      <aside>
-        <h5>Keresési feltételek</h5>
-        <label for="termekKeres"></label>
-        <input type="text" name="termekKeres" value="A termék neve">
+      <aside class="col-lg-2">
+        <div class="row">
+          <h5>Keresési feltételek</h5>
+          <label for="termekKeres" class="col-lg-12">Termék neve:</label>
+          <input type="text" name="termekKeres" value="A termék neve" class="col-lg-12">
+          
+          <label for="arSzures" class="col-lg-12">Szűrés ár szerint:</label>
+          <input type="range" name="arSzures" class="col-lg-12">
+        </div>
       </aside>
 
-      <article>
+      <article class="row col-lg-7">
         
       </article>
 
-      <aside>
+      <aside class="row col-lg-3">
         <h3>Kapcsolódó cikkek 1</h3>
         <ol>
           <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
@@ -42,10 +47,11 @@
           <li>Est nesciunt tenetur repellat possimus.</li>
         </ol>
         <h3>Kapcsolódó cikkek 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt quod amet ducimus esse omnis earum libero, autem ullam, minima, nobis praesentium doloremque sunt necessitatibus dolor maxime. Molestias, eos a.</p>
       </aside>
 
-      <footer>
-
+      <footer class="col-lg-12">
+        <h4>Készítette: Weimper Gergő Zsombor - Richter Balázs</h4>
       </footer>
 
     </main>    
