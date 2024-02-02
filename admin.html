@@ -36,8 +36,44 @@
               </ul>
             </div>
         </nav>
-
         <article>
+          <form class="container">
+            <div class="mb-3 mt-3">
+              <label for="id" class="form-label">ID:</label>
+              <input type="id" class="form-control" id="id" placeholder="Írd be a termék ID-t!" name="id">
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="cim" class="form-label">Cím:</label>
+              <input type="text" class="form-control" id="cim" placeholder="Írd be a termék címét!" name="cim">
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="kep" class="form-label">Kép:</label>
+              <input type="file" class="form-control" id="kep" placeholder="Csatold a termék képét!" name="kep">
+            </div>
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> S
+              </label>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> M
+            </label>
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="leiras" class="form-label">Leírás:</label>
+              <input type="text" class="form-control" id="leiras" placeholder="Írd be a termék leírását!" name="leiras">
+            </div>
+            <div class="mb-3 mt-3">
+              <label for="ar" class="form-label">Ár:</label>
+              <input type="number" class="form-control" id="ar" placeholder="Írd be a termék árát!" name="ar">
+            </div>
+            <div class="mb-3 mt-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Megerősítem a feltöltést
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Termék feltöltése a rendszerbe</button>
+          </form>
             <div class="container mt-3">
                 <h2>Adminisztrációs felület</h2>
                 <p>Elérhető termékeink táblázata:</p>            
